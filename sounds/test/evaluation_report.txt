@@ -1,0 +1,35 @@
+
+FILE                               EXPECTED         DETECTED                         RESULT
+--------------------------------------------------------------------------------------------
+fire_alarm_original.wav            FIRE_ALARM       FIRE_ALARM(1.0)                  OK
+fire_alarm_low_volume.wav          FIRE_ALARM       FIRE_ALARM(0.99)                 OK
+fire_alarm_noise_5db.wav           FIRE_ALARM       FIRE_ALARM(0.87)                 OK
+fire_alarm_with_speech.wav         FIRE_ALARM       FIRE_ALARM(0.91)                 OK
+fire_alarm_distance.wav            FIRE_ALARM       FIRE_ALARM(1.0)                  OK
+fire_alarm_twice.wav               FIRE_ALARM       FIRE_ALARM(1.0), FIRE_ALARM(0.9) OK
+security_alarm_original.wav        SECURITY_ALARM   SECURITY_ALARM(0.96)             OK
+security_alarm_low_volume.wav      SECURITY_ALARM   SECURITY_ALARM(0.99)             OK
+security_alarm_noise_5db.wav       SECURITY_ALARM   SECURITY_ALARM(0.98)             OK
+security_alarm_with_speech.wav     SECURITY_ALARM   SECURITY_ALARM(0.9)              OK
+security_alarm_distance.wav        SECURITY_ALARM   SECURITY_ALARM(0.95)             OK
+security_alarm_twice.wav           SECURITY_ALARM   SECURITY_ALARM(0.91), SECURITY_ALARM(0.99) OK
+general_warning_original.wav       GENERAL_WARNING  GENERAL_WARNING(0.97)            OK
+general_warning_low_volume.wav     GENERAL_WARNING  GENERAL_WARNING(0.98)            OK
+general_warning_noise_5db.wav      GENERAL_WARNING  GENERAL_WARNING(0.96)            OK
+general_warning_with_speech.wav    GENERAL_WARNING  GENERAL_WARNING(0.9)             OK
+general_warning_distance.wav       GENERAL_WARNING  GENERAL_WARNING(0.91)            OK
+general_warning_twice.wav          GENERAL_WARNING  GENERAL_WARNING(0.96), GENERAL_WARNING(0.99) OK
+neg_speech.wav                     NONE             -                                OK
+neg_music.wav                      NONE             -                                OK
+neg_noise.wav                      NONE             -                                OK
+neg_silence.wav                    NONE             -                                OK
+neg_foreign_beep.wav               NONE             -                                OK
+neg_speech_music_mix.wav           NONE             -                                OK
+--------------------------------------------------------------------------------------------
+Accuracy (files fully correct): 100.0%
+Precision: 100.0%   Recall: 100.0%
+False positives: 0   Missed alarms: 0
+Detection latency: mean 1.09 s, max 2.00 s
+  FIRE_ALARM       TP=7 FP=0 FN=0
+  SECURITY_ALARM   TP=7 FP=0 FN=0
+  GENERAL_WARNING  TP=7 FP=0 FN=0

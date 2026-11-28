@@ -1,0 +1,161 @@
+[
+  {
+    "file": "fire_alarm_original.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "fire_alarm_low_volume.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "fire_alarm_noise_5db.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "fire_alarm_with_speech.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "fire_alarm_distance.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "fire_alarm_twice.wav",
+    "label": "FIRE_ALARM",
+    "onsets": [
+      1.5,
+      10.5
+    ]
+  },
+  {
+    "file": "security_alarm_original.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "security_alarm_low_volume.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "security_alarm_noise_5db.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "security_alarm_with_speech.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "security_alarm_distance.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "security_alarm_twice.wav",
+    "label": "SECURITY_ALARM",
+    "onsets": [
+      1.5,
+      10.5
+    ]
+  },
+  {
+    "file": "general_warning_original.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "general_warning_low_volume.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "general_warning_noise_5db.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "general_warning_with_speech.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "general_warning_distance.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5
+    ]
+  },
+  {
+    "file": "general_warning_twice.wav",
+    "label": "GENERAL_WARNING",
+    "onsets": [
+      1.5,
+      10.5
+    ]
+  },
+  {
+    "file": "neg_speech.wav",
+    "label": "NONE",
+    "onsets": []
+  },
+  {
+    "file": "neg_music.wav",
+    "label": "NONE",
+    "onsets": []
+  },
+  {
+    "file": "neg_noise.wav",
+    "label": "NONE",
+    "onsets": []
+  },
+  {
+    "file": "neg_silence.wav",
+    "label": "NONE",
+    "onsets": []
+  },
+  {
+    "file": "neg_foreign_beep.wav",
+    "label": "NONE",
+    "onsets": []
+  },
+  {
+    "file": "neg_speech_music_mix.wav",
+    "label": "NONE",
+    "onsets": []
+  }
+]
